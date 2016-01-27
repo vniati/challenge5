@@ -5,34 +5,133 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>ExoBootstrap</title>
-        <link href="/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+        <link href="/css/bootstrap.css" type="text/css" rel="stylesheet">
         <link href="/css/bootstrap-theme.min.css" type="text/css" rel="stylesheet">
         <link href="/css/style.css" type="text/css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <script src="jquery/jquery-1.12.0.min.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
       </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-md-2">
+          <h1>Pregeny MMXIV</h1>
+        </div>
+        <div class="col-md-6 col-md-offset-4 no-padding">
+          <nav class="navbar navbar-default nav-top">
+            <ul>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="#">MUSIC</a></li>
+              <li><a href="#">GIGS</a></li>
+              <li><a href="#">PHOTOS</a></li>
+              <li><a href="#">VIDEOS</a></li>
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-search loupe"></i></a></li>
+            </ul>
+            <div class="clearfix"></div>
+          </nav>
+        </div>
+      </div>
+
       <div class="row">
 
-        <div class="col-md-2"></div>
+        <div class=" no-padding col-md-2">
+          <nav class="nav-left">
+          <ul>
+            <li><span id="twenty">Twenty Fourteen Child theme</span></li>
+            <li><a href="#">CREDITS</a></li>
+            <li><a href="#">BLOG/NEWS</a></li>
+            <li><a href="#">STYLE GUDE</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">TRY AUDIOTHEME!</a></li>
+            <li><a href="#">GITHUB</a><i class="fa fa-github git"></i></li>
+            <li><a href="#">WORDPRESS</a><i class="fa fa-wordpress word"></i></li>
+          </ul>
+        </nav>
+        <div class="under-nav-left">
+          <input type="text" placeholder="Search ..."></input>
+          <h2>RECENT RELEASE</h2>
+          <img src="images/wide-listener-1024x1024.jpg" alt="Cercles" />
+          <p class="release">Released 9.10.13</p>
+          <div class="three-p">
+            <p>Listen Now</p>
+            <h2>SPECIAL THANKS</h2>
+            <p>Drew Kennedy</p>
+            <p>Rodney Hayden</p>
+            <p>Modern Trade</p>
+          </div>
+          <p id="last-p">Twenty Fourteen Wordpress Child Theme by <span class="white"><a href="#">AudioTheme</a></span></p>
+        </div>
+        </div>
 
         <div class="col-md-10">
           <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
+            <div class="col-md-4 div-img">
+              <article class="div-img">
+                <img class="imgs1" src="images/nowell-featured-image-1038x576.jpg" alt="" />
+                <h2 class="titre-image">BLOG</h2>
+                <p class="parag-image">NOWEL WORDPRESS AUDIOTHEME FEATURES OVERVIEW</p>
+              </article>
             </div>
-          </div>
+            <div class="col-md-4 div-img">
+              <article class="div-img">
+                <img class="imgs2" src="images/rodney-hayden-atascosa-sand.jpg" alt="" />
+                <h2 class="titre-image">RECORDS</h2>
+                <p class="parag-image">A|ASCOSA SAND</p>
+              </article>
+            </div>
+            <div class="col-md-4 div-img">
+              <article class="div-img">
+                <img class="imgs3" src="images/322267385_640.jpg" alt="" />
+                <h2 class="titre-image">VIDEOS</h2>
+                <p class="parag-image">DREW KENNEDY - ANGEL BAND</p>
+              </article>
+            </div>
+            </div>
 
           <div class="row">
-            <div class="col-md-8"></div>
-            <div class="col-md-4"></div>
+            <div class="col-md-8 no-padding">
+              <div class="middle">
+                <h2>AUDIOTHEME FRAMEWORK DEMO</h2>
+                <p>Lorem <a href="#">ipsum dolor sit amet,</a> consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                <p id="mid-last-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunde fhturh iejfhr iejhhe.</p>
+              </div>
+            </div>
+
+            <div class="col-md-4 no-padding">
+              <div class="mid-right">
+                <h3 id="title-upco">UPCOMING GIGS</h3>
+                <a href="#">Spokane Arena</a>
+                <span>Spokane, WA, United States</span>
+                <span class="border-span-right">May 21,2015</span>
+
+                <a href="#">Telluride, Bluegrass Festival</a>
+                <span>Spokane, WA, United States</span>
+                <span class="border-span-right">May 21,2015</span>
+
+                <a href="#">Miller Auditorium</a>
+                <span>Spokane, WA, United States</span>
+                <span>May 21,2015</span>
+
+                <div id="play">
+                  <i class="fa fa-play"></i><h3>FEATURED VIDEO</h3>
+                </div>
+                  <img src="images/audiotheme-overview-video-thumbnail.jpg" alt="" />
+                  <p>Overview showcasing a few of the features available in the <a href="#">AudioTheme Framework</a> via the WordPress admin.</p>
+              </div>
           </div>
       </div>
+    </div>
 
      <div class="row">
-       <div class="col-md-12"></div>
+       <div class="col-md-12">
+         <footer>Progeny MMXIV WordPress theme by Cedaro. Proudly powered by WordPress</footer>
+       </div>
      </div>
     </div>
 
