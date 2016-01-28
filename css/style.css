@@ -15,28 +15,16 @@ h1 {
   padding: 0;
 }
 
-.nav-top ul {
-  float: right;
-
+.navbar-default {
+  background-color: black;
+  border: none;
 }
 
-.nav-top {
-  padding-bottom: 0.5em;
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  background-color: black;
 }
 
-.nav-top ul li {
-  display: inline-block;
-  list-style-type: none;
-  margin-top: 20px;
-}
-
-.nav-top ul li a {
-  color: white;
-  text-decoration: none;
-  margin-left: 1.5em;
-}
-
-.nav-top .loupe {
+.loupe {
   background-color: #24890d;
   padding: 0.8em 1em;
 }
@@ -192,7 +180,7 @@ h1 {
   background-color: white;
   padding-top: 2em;
   padding-right: 2em;
-  padding-bottom: 7em;
+  padding-bottom: 13.9em;
 }
 
 .mid-right span {
